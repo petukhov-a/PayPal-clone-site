@@ -24,7 +24,34 @@ html {
     font-weight: 600;
     cursor: pointer;
 }
+
+.logo {
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 800;
+    color: #fff;
+    position: relative;
+}
+
+.p-1 {
+    font-size: 4.5rem;
+    margin-right: 1rem;
+    position: relative;
+    z-index: 10;
+}
+
+.p-2 {
+    font-size: 4.5rem;
+    color: #bbb;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.5rem;
+}
 /* End of Common Styles */
+
+.front-page {
+    display: none;
+}
 
 /* Section 1 */
 .section-1 {
@@ -51,29 +78,6 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.navbar-logo {
-    font-size: 3.5rem;
-    font-style: italic;
-    font-weight: 800;
-    color: #fff;
-    position: relative;
-}
-
-.p-1 {
-    font-size: 4.5rem;
-    margin-right: 1rem;
-    position: relative;
-    z-index: 10;
-}
-
-.p-2 {
-    font-size: 4.5rem;
-    color: #bbb;
-    position: absolute;
-    top: 0.4rem;
-    left: 0.5rem;
 }
 
 .nav-list {
